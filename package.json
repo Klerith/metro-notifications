@@ -1,15 +1,22 @@
 {
-  "name": "development",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "metro-notifications",
+  "version": "0.0.1",
+  "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsup src/index.ts --format esm,cjs --dts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "metro",
+    "notifications",
+    "notifications-library"
+  ],
+  "author": "Fernando Herrera",
+  "license": "MIT",
+  "description": "A simple library to create HTML notifications for projects, easy and simple.",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "devDependencies": {
     "eslint": "^9.19.0",
     "prettier": "^3.4.2",
