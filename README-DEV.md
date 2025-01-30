@@ -17,6 +17,8 @@ npm link metro-notifications
 
 5. Run the new project and test the library
 
+Now, every time you make a change in the library, you wont need to run the build again, it will be automatically updated.
+
 ### Note:
 
 When you finished and you wont need the library anymore, you can remove the link with the following command:
