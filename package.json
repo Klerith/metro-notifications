@@ -1,5 +1,5 @@
 {
-  "name": "metro-notifications",
+  "name": "sweet-notifications",
   "version": "0.0.1",
   "private": false,
   "scripts": {
@@ -7,9 +7,11 @@
     "build": "tsup src/index.ts --format esm,cjs --dts"
   },
   "keywords": [
-    "metro",
     "notifications",
-    "notifications-library"
+    "notifications-library",
+    "sweet-notifications",
+    "sweet-notifications-library",
+    "sweet"
   ],
   "author": "Fernando Herrera",
   "license": "MIT",
